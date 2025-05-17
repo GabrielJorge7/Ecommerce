@@ -47,15 +47,15 @@ Testabilidade: cada cálculo de frete é testado isoladamente.
 
 Reutilização: a mesma estratégia pode ser usada em outros pontos da aplicação (ex.: carrinho, cotação).
 
-Resumo em uma frase
-State governa o “quando e para onde” um pedido pode avançar; Strategy decide “como” se calcula o preço de levar esse pedido até o cliente — e ambos juntos mantêm o código limpo, modular e pronto para crescer.
-
 
 
 
 Service:
+
 ![image](https://github.com/user-attachments/assets/eb754f42-3ab0-4f43-9114-102dfc0b5c3c)
+
 Model:
+
 ![image](https://github.com/user-attachments/assets/ce4a7c10-3f33-4f65-9361-8193abe97731)
 
 
