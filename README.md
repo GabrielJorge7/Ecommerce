@@ -54,6 +54,8 @@ State governa o “quando e para onde” um pedido pode avançar; Strategy decid
 
 
 
+![image](https://github.com/user-attachments/assets/eb754f42-3ab0-4f43-9114-102dfc0b5c3c)
 
+![image](https://github.com/user-attachments/assets/ce4a7c10-3f33-4f65-9361-8193abe97731)
 
 
