@@ -1,5 +1,4 @@
-Visão Geral do Sistema:
-
+Visão Geral do Sistema
 Neste projeto de e-commerce, queremos orquestrar dois aspectos cruciais de cada compra:
 
 Evolução do pedido — ele nasce, amadurece ou é encerrado seguindo regras rígidas (pago, enviado, cancelado, etc.).
@@ -17,7 +16,7 @@ Como aplicamos:
 Papel	Implementação
 Interface PedidoState	Define as ações possíveis (ex.: pagar(), enviar(), cancelar()).
 Estados concretos	AguardandoPagamento, Pago, Enviado, Cancelado – cada classe sabe exatamente o que pode ou não fazer e qual estado virá depois.
-Contexto Pedido	Mantém uma referência ao estado atual e delega as chamadas: pedido.pagar() simplesmente invoca estadoAtual.pagar(this).
+Contexto Pedido	Mantém uma referência ao estado atual e delega as chamadas: pedido.pagar() simplesmente invoca statusAtual.pagar(this).
 
 Benefícios alcançados
 
@@ -47,6 +46,8 @@ Aberto para extensão, fechado para modificação (Princípio Open/Closed): adic
 Testabilidade: cada cálculo de frete é testado isoladamente.
 
 Reutilização: a mesma estratégia pode ser usada em outros pontos da aplicação (ex.: carrinho, cotação).
+
+
 
 
 
