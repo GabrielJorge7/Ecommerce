@@ -1,4 +1,5 @@
-Visão Geral do Sistema
+Visão Geral do Sistema:
+
 Neste projeto de e-commerce, queremos orquestrar dois aspectos cruciais de cada compra:
 
 Evolução do pedido — ele nasce, amadurece ou é encerrado seguindo regras rígidas (pago, enviado, cancelado, etc.).
